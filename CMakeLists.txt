@@ -17,4 +17,4 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 
 add_subdirectory(prj.labs)
 add_subdirectory(contarst_preserving_decolorization)
-
+add_subdirectory(sift_surf_comparation)
