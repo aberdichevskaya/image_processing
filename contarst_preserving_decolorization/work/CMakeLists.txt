@@ -1,0 +1,4 @@
+project(color_contrast_preserving_decolorization)
+
+add_executable(color_contrast_preserving_decolorization color_contrast_preserving_decolorization.cpp )
+target_link_libraries(color_contrast_preserving_decolorization ${OpenCV_LIBS})
